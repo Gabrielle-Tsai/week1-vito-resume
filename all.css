@@ -1,0 +1,86 @@
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 160px auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 128px;
+    text-align: left;
+}
+
+header h2 {
+    font-size: 128px;
+    text-align: right;
+}
+
+header img {
+    width: 636px;
+    height: 848px;
+}
+
+.introduction {
+    background: #efefef;
+    padding: 48px;
+}
+
+.introduction p {
+    width: 636px;
+    font-size: 32px;
+    margin-left: auto;
+}
+
+.block {
+    margin-top: 40px;
+    width: 636px;
+}
+
+.block .title {
+    font-size: 40px;
+    color: #ae0000;
+    border-bottom: 3px solid #ae0000;
+    margin-bottom: 16px;
+}
+
+.block p {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.block .year {
+    font-size: 20px;
+    font-style: italic;
+    color: #949494;
+}
+
+.block .year+p {
+    margin-bottom: 16px;
+}
+
+.awards {
+    font-size: 24px;
+}
+
+.awards li {
+    margin-bottom: 12px;
+}
+
+footer {
+    margin-top: 160px;
+    background: #000;
+    padding: 64px;
+    text-align: center;
+}
+
+footer img {
+    width: 64px;
+    height: 64px;
+}
+
+footer img:nth-child(2) {
+    margin: 0 40px;
+}
